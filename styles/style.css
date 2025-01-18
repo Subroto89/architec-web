@@ -25,14 +25,17 @@ body{
     color: #131313;
 }
 .txt-section-subtitle{
-    font-size: 1.2rem;
+    font-size: .88rem;
     font-weight: 600;
     color: #131313;
+    margin-bottom: 0.44rem;
 }
 .txt-description{
     font-size: 0.68rem;
     font-weight: 400;
     color: #727272;
+    line-height: 1.3rem;
+    letter-spacing: 0.05rem;
 }   
 .txt-fact-number{
     font-size: 2.8rem;
@@ -119,7 +122,8 @@ body{
 /* ----------------------------------------------------------- */
 /* Main Section Styles Starts Here */
 
-.main_feature-list{
+.main_feature-list, 
+.main_feature-filtered{
     max-width: 75%;
     display: flex;
     justify-content: center;
@@ -151,6 +155,70 @@ body{
 .main_feature-list_text h2 .features{
     color: #FF900E;
 }
+
+/* features list filtered style */
+
+
+.main_feature-filtered-text_top h2{
+    border-left: .125rem solid #FF900E;
+    padding-left: .62rem;
+    margin-bottom: 1rem;    
+}
+
+.main_feature-filtered-text_top{
+    margin-bottom: 1.3rem;
+}
+
+
+.main_feature-filtered-text_bottom 
+.first, .second, .third, .fourth{
+    padding: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.main_feature-filtered_text{
+    width: 26rem;
+    height: 43.66rem;
+    
+}
+
+.main_feature-filtered_img{
+    width: 35.57rem;
+    height: 47rem;
+    position: relative;
+    
+}
+
+.main_feature-filtered_img img{
+    /* display: block; */
+    width: 31.48rem;
+    height: 44rem;
+    position: absolute;
+    top: 0;
+    right:0;
+    
+}
+
+.main_feature-filtered_img span{
+    width: 15rem;
+    height: 9rem;
+    border-radius: 5px;
+    background-color: #FF900E;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;  
+    text-align: center; 
+}
+
+
 
 /* Main Section Styles Ends Here */
 /* ----------------------------------------------------------- */
