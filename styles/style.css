@@ -20,8 +20,8 @@ body{
 
 
 .txt-section-title{
-    font-size: 2.8rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 600;
     color: #131313;
 }
 .txt-section-subtitle{
@@ -30,7 +30,8 @@ body{
     color: #131313;
 }
 .txt-description{
-    font-size: 1rem;
+    font-size: 0.68rem;
+    font-weight: 400;
     color: #727272;
 }   
 .txt-fact-number{
@@ -44,15 +45,16 @@ body{
     color: #727272;
 }
 .btn-primary{
-    background-color: #007bff;
-    color: white;
-    padding: 0.5rem 1rem;
+    width: 8rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.41%;
+    background-color: #FF900E;
+    padding: 0.5rem 1rem;
+    font-size: 0.87rem;
+    font-weight: 600;
+    color: #FFFFFF  ;    
     cursor: pointer;
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
+    margin-top: 2%;
 }
 
 
@@ -60,10 +62,11 @@ body{
 /* ----------------------------------------------------------- */
 /* Header Styles Starts Here */
 
-/* Header Container Style */
+
 .header{
     width: 100%;
     background-color: rgba(255, 144, 14, 0.1);
+    padding: 2% 0;
 }
 
 /* navBar Style */
@@ -73,7 +76,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
     margin: 0 auto;
 }
 
@@ -82,6 +84,7 @@ body{
     gap: 70px;
     list-style: none;
 }
+
 .header_nav-list li a{
     text-decoration: none;
 }
@@ -89,16 +92,65 @@ body{
 
 /* Hero Section Style */
 
+.header_text{
+    width: 45%;
+    margin: 6% auto;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
 
+.header_text h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+}
 
+/* button style is taken from shared style named .btn-primary */
+
+.header_img{
+    max-width: 75%;
+    display: block;
+    margin: 0 auto;
+}
 
 /* Header Styles Ends Here */
 /* ----------------------------------------------------------- */
 /* Main Section Styles Starts Here */
 
+.main_feature-list{
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.8%;
+    margin: 4% auto 6.7%;
+    padding: 0 3%;
+}
 
+.main_feature-list_img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
 
+.main_feature-list_img img{
+    width: 15rem;
+    border-radius: 5px;
+    
+}
 
+.main_feature-list_text h2{
+    margin-bottom: 1rem;
+}
+.main_feature-list_text h2 .quick-list{
+    color: #727272;
+}
+
+.main_feature-list_text h2 .features{
+    color: #FF900E;
+}
 
 /* Main Section Styles Ends Here */
 /* ----------------------------------------------------------- */
