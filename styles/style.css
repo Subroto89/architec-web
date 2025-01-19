@@ -177,7 +177,6 @@ body{
 }
 
 
-
 .main_feature-filtered_text{
     width: 26rem;
     height: 43.66rem;
@@ -192,7 +191,6 @@ body{
 }
 
 .main_feature-filtered_img img{
-    /* display: block; */
     width: 31.48rem;
     height: 44rem;
     position: absolute;
@@ -218,13 +216,80 @@ body{
     text-align: center; 
 }
 
+/* Facts Styles */
 
+.facts, .sponsors{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.facts h2{
+    margin-bottom: 1rem;
+}
+
+.facts_box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    margin: 4.45rem 0 8rem;
+}
+
+.facts_box div{
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+.facts_box img{
+    width: 35px;
+    height: 35px;
+}
+.facts_box h2{
+    margin: 10px 0 5px;
+    color: #424242;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.facts_box p{
+    font-size: 0.89rem;
+    color: #727272;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.sponsors h2{
+    margin-bottom: 1rem;
+}
+.sponsors_brand-logo{
+    display: flex;
+    justify-content: center;
+    gap: 6.89rem;
+    margin: 2.22rem 0 5.7rem
+}
+
+.sponsors_brand-logo img{
+    width: 6.89rem;
+    height: 2.22rem;
+    filter: grayscale(100%)
+}
 
 /* Main Section Styles Ends Here */
 /* ----------------------------------------------------------- */
 /* Footer Styles Starts Here */
 
+.footer p{
+    width: 75%;
+    height: 4.5rem;
+    background-color: #FFF4E7;
+    margin: 0 auto 100px;
+    text-align: center;
+    line-height: 4.5rem;
 
+}
 
 
 
